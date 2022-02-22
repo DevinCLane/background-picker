@@ -1,0 +1,104 @@
+/* Box model */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* 
+typography 
+adapted from type-scale.com
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400');
+
+html {font-size: 100%;} /*16px*/
+
+body {
+  background: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  line-height: 1.75;
+  color: #000000;
+}
+
+p {margin-bottom: 1rem;}
+
+h1, h2, h3, h4, h5 {
+  margin: 3rem 0 1.38rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3.052rem;
+}
+
+h2 {font-size: 2.441rem;}
+
+h3 {font-size: 1.953rem;}
+
+h4 {font-size: 1.563rem;}
+
+h5 {font-size: 1.25rem;}
+
+small, .text_small {font-size: 0.8rem;}
+
+
+/* reset styles */
+
+ul {
+    list-style-type: none;
+}
+
+/* Base styles */
+body {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+main {
+    text-align: center;
+    margin: 20px;
+}
+
+li {
+    width: 10rem;
+    height: 10rem;
+    border: 3px solid black;
+    margin: 5px auto;
+    border-radius: 4px;
+}
+
+#french-lilac {
+    background: #8d5a97ff;
+}
+
+#mountbatten-pink {
+    background: #907f9fff;
+}
+
+#silver-metallic {
+    background: #a4a5aeff;
+}
+
+#reset {
+    text-align: center;
+    padding: 3rem;
+    background: white;
+    color: black;
+}
+
+/*
+
+Colors
+
+CSS Hex
+--french-lilac: #8d5a97ff;
+--mountbatten-pink: #907f9fff;
+--silver-metallic: #a4a5aeff;
+--opal: #b0c7bdff;
+--magic-mint: #b8ebd0ff;
+
+*/ 
